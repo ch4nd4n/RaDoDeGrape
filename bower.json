@@ -1,0 +1,19 @@
+{
+  "name": "img-zinger",
+  "version": "0.0.1",
+  "authors": [
+    "Chandan Kumar <chandankumar.r@gmail.com>"
+  ],
+  "description": "Image Zinger",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4"
+  }
+}
