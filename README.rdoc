@@ -1,28 +1,38 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RaDoDeGrape
 
-Things you may want to cover:
+Rails + Doorkeeper + Devise + Grape
 
-* Ruby version
+Minimalist app that uses Grape for API and Doorkeeper in conjunction with Devise.
 
-* System dependencies
+Purpose of this app is to bake in best practices.
 
-* Configuration
+=== Requirements
 
-* Database creation
+* Ruby version - ruby 2.0.0
+* Postgres
 
-* Database initialization
+=== Setup
 
-* How to run the test suite
+* Fork-Clone
+* bundle install
+* rake db:migrate
+* rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+Above should start the server on port 3000
 
-* Deployment instructions
+Visit http://localhost:3000
 
-* ...
+Signup and login
 
+You can add new app at http://localhost:3000/oauth/applications
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+You can use oauth2 gem to authenticate API
+
+=== Code
+Regular Rails app
+app/api folder contains RESTful APIs
+
+=== Missing
+Automated test cases.
